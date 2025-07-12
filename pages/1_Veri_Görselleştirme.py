@@ -18,7 +18,7 @@ st.markdown("Bu sayfada kalp hastalığı veri setini çeşitli grafiklerle anal
 # Veri setini yükleme
 @st.cache_data
 def load_data():
-    data = pd.read_csv('c:\\Users\\somef\\OneDrive\\Desktop\\uygulama\\heart_cleaned.csv')
+    data = pd.read_csv('heart_cleaned.csv')
     return data
 
 df = load_data()
