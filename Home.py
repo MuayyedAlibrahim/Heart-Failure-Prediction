@@ -29,7 +29,7 @@ Bu platform, kalp hastalığı verilerini analiz etmenize, görselleştirmenize 
 # Veri setini yükleme
 @st.cache_data
 def load_data():
-    data = pd.read_csv('c:\\Users\\somef\\OneDrive\\Desktop\\uygulama\\heart_cleaned.csv')
+    data = pd.read_csv('heart_cleaned.csv')
     return data
 
 # Veri setini yükle
