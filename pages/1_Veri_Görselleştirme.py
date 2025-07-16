@@ -377,12 +377,14 @@ elif visualization_category == "Sağlık Parametreleri":
         # ST Eğimi açıklaması
         st.markdown("""
         **ST Eğimi (ST_Slope):**
-        - **0**: Aşağı eğimli (Down)
-        - **1**: Düz (Flat)
-        - **2**: Yukarı eğimli (Up)
-        
-        **STDepresyonu**: Egzersiz ile indüklenen ST depresyonu
+        - **0**: Aşağı eğimli (Down)  
+        Egzersiz sırasında ST segmenti aşağı doğru eğim gösteriyor. Bu durum genellikle kalp kasına yeterince oksijen gitmediğini (iskemi) gösterir ve **kalp hastalığı riski yüksektir**.
+        - **1**: Düz (Flat)  
+        ST segmenti egzersiz sırasında düz kalır. Bu da anormal bir durum olabilir ve **kalp hastalığına işaret edebilir**.
+        - **2**: Yukarı eğimli (Up)  
+        Egzersiz sırasında ST segmenti yukarı eğimlidir. Bu genellikle **normal** kabul edilir ve **kalp hastalığı riski düşüktür**.
         """)
+
         
         # Veri hazırlama
         df_temp = df.copy()
