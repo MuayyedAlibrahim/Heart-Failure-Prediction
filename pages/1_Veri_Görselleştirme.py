@@ -215,12 +215,16 @@ elif visualization_category == "Sağlık Parametreleri":
         
         # Göğüs ağrısı tipi açıklaması
         st.markdown("""
-        **Göğüs Ağrısı Tipleri:**
-        - **0**: Asemptomatik (ASY)
-        - **1**: Atipik Angina (ATA)
-        - **2**: Non-Anginal Ağrı (NAP)
-        - **3**: Tipik Angina (TA)
-        """)
+       **Göğüs Ağrısı Tipleri:**
+       - **0**: Asemptomatik (ASY)  
+       Hasta göğüs ağrısı hissetmiyor ancak kalp hastalığı belirtileri testlerde ortaya çıkabilir.
+       - **1**: Atipik Angina (ATA)  
+       Göğüs ağrısı mevcut ama klasik anjina belirtilerine tam olarak uymuyor, kalp dışı nedenler de olabilir.
+       - **2**: Non-Anginal Ağrı (NAP)  
+       Göğüs ağrısı var ancak kalp ile ilgili değil; genellikle kas, mide gibi başka kaynaklardan kaynaklanır.
+       - **3**: Tipik Angina (TA)  
+       Fiziksel aktiviteyle artan, dinlenmeyle azalan klasik göğüs ağrısı; kalp hastalığı ile yüksek oranda ilişkilidir.
+       """)
         
         # Veri çerçevesinin bir kopyasını oluştur
         df_chest_pain = df.copy()
