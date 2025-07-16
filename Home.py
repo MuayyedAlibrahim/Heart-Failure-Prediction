@@ -62,7 +62,7 @@ with col3:
     ### ℹ️ Hakkında
     Proje ve veri seti hakkında detaylı bilgi alın.
     
-    [Hakkında Sayfasına Git](https://github.com/MuayyedAlibrahim/dataset-streamlit.app.git)
+    [Hakkında Sayfasına Git](https://github.com/MuayyedAlibrahim.git)
     """, unsafe_allow_html=True)
 
 # Footer
