@@ -62,7 +62,7 @@ with col3:
     ### ℹ️ Hakkında
     Proje ve veri seti hakkında detaylı bilgi alın.
     
-    [Hakkında Sayfasına Git](https://github.com/MuayyedAlibrahim.git)
+    [Hakkında Sayfasına Git](https://github.com/MuayyedAlibrahim)
     """, unsafe_allow_html=True)
 
 # Footer
