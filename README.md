@@ -134,6 +134,3 @@ https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 
 Bu proje açık kaynaklıdır ve eğitim amaçlı kullanılabilir.
 
-## Not
-
-Bu uygulama sadece eğitim ve bilgilendirme amaçlıdır. Sağlık durumunuzla ilgili endişeleriniz varsa, lütfen bir sağlık uzmanına başvurun.
