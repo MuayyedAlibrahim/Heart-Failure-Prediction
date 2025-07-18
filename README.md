@@ -126,6 +126,12 @@ Bu uygulama, Streamlit kullanılarak geliştirilmiştir.
 
 ## Lisans
 
+Kulanılan veri seti
+
+```bash
+https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
+```
+
 Bu proje açık kaynaklıdır ve eğitim amaçlı kullanılabilir.
 
 ## Not
