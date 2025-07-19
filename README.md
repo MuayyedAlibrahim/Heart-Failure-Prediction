@@ -107,7 +107,9 @@ Veri seti özellikleri:
 │   └── 3_Tanıtım.py              # Tanıtım sayfası
 ├── heart.csv                  # Veri seti
 ├── requirements.txt           # Gerekli kütüphaneler
+├── Untitled.ipynb             # Jupyter Notebook dosyası.          
 └── README.md                  # Bu dosya
+
 ```
 
 ## Gereksinimler
